@@ -1,0 +1,49 @@
+# Backend - Java/Maven
+backend/target/
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/*.iml
+backend/.idea/
+backend/node_modules/
+backend/dist/
+
+# Frontend - Node.js/React
+frontend/node_modules/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/build/
+frontend/.DS_Store
+frontend/dist/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Misc
+.env
+.env.local
