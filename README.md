@@ -46,6 +46,19 @@ Make sure the following are installed:
 
 ---
 
+# ▶️ Running Backend
+
+cd backend
+
+# Build project
+mvn clean package
+
+# Run backend
+mvn spring-boot:run
+
+-----
+
+
 # 🗄 Database Setup
 
 ## Option 1 — Using schema.sql
@@ -63,3 +76,5 @@ psql -U postgres
 | GET    | `/api/students/{id}` | Get student by ID |
 | PUT    | `/api/students/{id}` | Update student    |
 | DELETE | `/api/students/{id}` | Delete student    |
+
+
